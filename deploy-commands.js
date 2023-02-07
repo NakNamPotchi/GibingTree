@@ -3,7 +3,7 @@ const fs = require('node:fs');
 
 const clientId = "1035608517157068810";
 const guildId = "1028939988538245181";
-const token = "MTAzNTYwODUxNzE1NzA2ODgxMA.G5usMx.33GMnpj7PFDcKsXA9hN36OqMwv9KpMe6UnC-uI";
+const token = process.env.TOKEN;
 
 const commands = [];
 // Grab all the command files from the commands directory you created earlier
